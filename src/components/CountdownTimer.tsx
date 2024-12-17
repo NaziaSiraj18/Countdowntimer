@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 
 const CountdownTimer: React.FC = () => {
@@ -43,7 +44,7 @@ const CountdownTimer: React.FC = () => {
     
     return (
         <div className='flex flex-col min-h-screen items-center justify-center bg-gradient-to-br from-black to gray'>
-         <img src="../images/N-logo.jpg" alt="Nazia logo"
+         <Image src="../images/N-logo.jpg" alt="Nazia logo"
          className='absolute top-4 right-4 h-auto w-40'/>
              
              <h1 className='text-4xl font-extrabold uppercase mb-6'>CountdownTimer</h1>
